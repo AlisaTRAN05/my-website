@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  background-color: #A94064;
+  color: white;
+  font-size: 15px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.banner {
+  text-align: left;
+  padding: 100px;
+}
+
+.featured-products {
+  text-align: left;
+  padding: 30px 100px;
+}
+
+#featured-products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+
+.products {
+    width: 30%;
+    margin: 20px;
+    padding: 0px;
+}
+
+.products img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons {
+  text-align: center;
+}
